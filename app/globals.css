@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #cfb653;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.bg-gold {
+  background-color: var(--gold);
+}
+
+.text-gold {
+  color: var(--gold);
+}
+
+.border-gold {
+  border-color: var(--gold);
+}
+
